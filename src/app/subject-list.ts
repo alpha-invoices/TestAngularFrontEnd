@@ -16,7 +16,7 @@ export class SubjectList {
         this.subjects.forEach(subject => {
             totalPrice += subject.priceForOne;
         });
-        
+
         return totalPrice;
     }
 
